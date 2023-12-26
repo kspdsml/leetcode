@@ -1,15 +1,7 @@
-freq_map = {}
+dummy_dict = {
+    "l":2,
+    "r":5,
+    "s":6
+}
 
-s = "rabbit"
-t = "barrit"
-
-for i in range(len(s)):
-    if s[i] in freq_map:
-        freq_map[s[i]] += 1
-    else:
-        freq_map[s[i]] = 1
-    if t[i] in freq_map:
-        freq_map[t[i]] -= 1
-    else:
-        print('false')
-print(freq_map)
+print(max(dummy_dict.values()))
