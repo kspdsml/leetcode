@@ -8,6 +8,6 @@ class Solution:
             if complement in index_map:
                 return [i, index_map[complement]]
             else:
-                index_map[complement] = i
+                index_map[nums[i]] = i
 
             
